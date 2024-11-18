@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Explorer - Simple and Tasty Recipes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="AboutUs.html">ABOUT</a></li>
+                <li><a href="Recipe.html">RECIPES</a></li>
+                <li><a href="form.html">YOUR RECIPES </a></li>
+            </ul>
+        </nav>
+        
+        <div class="hero-text">
+        </div>
+        <script>
+
+                 var name;
+                 var now = new Date();
+                 var hour = now.getHours();
+
+                 name = window.prompt( "Enter your name" );
+
+                 // whether it's morning
+                 if ( hour < 12 )
+                    document.write( "<h1>Good Morning " );
+
+                 // whether the time is PM
+                 if ( hour >= 12 )
+                 {
+                    // convert to a 12-hour clock
+                    hour = hour - 12;
+
+                    // whether it is before 6 PM
+                    if ( hour < 6 )
+                       document.write( "<h1>Good Afternoon " );
+
+                    // whether it is after 6 PM
+                    if ( hour >= 6 )
+                       document.write( "<h1>Good Evening " );
+                 } 
+
+                 document.writeln( name +
+                    ", welcome to Recipe Explorer</h1>" );
+
+              </script>
+        <p>Your Gateway to Global Cuisine!</p>
+    </header>
+
+    <section class="description">
+        <div class="left-image">
+            <img src="https://cdn.shopify.com/s/files/1/0324/8750/5965/files/Monoware_Simply_Food.jpg?v=1609345857" alt="Delicious Dish">
+        </div>
+        <div class="right-text">
+            <h2>Explore new flavors and traditions!</h2>
+            <p>Use our interactive world map to discover traditional recipes by region. Simply click on a country to unlock its most beloved dishes. Each recipe comes with easy-to-follow instructions and ingredients, making cooking a fun and simple experience.</p>
+            <a href="Recipe.html" class="explore-btn">Explore Dishes</a>
+        </div>
+    </section>
+
+    <section class="categories">
+        <h2>popular dishes from different countries</h2>
+        <p> section brings together popular dishes from different countries, allowing you to explore new flavors and traditions. Whether you're looking for a classic Italian pizza, a spicy Indian Butter chicken, or a Spanish Paella recipes.</p>
+        <div class="category-grid">
+                    <div class="category-item">
+                        <a href="pizza.html"><img src="https://i.etsystatic.com/5872003/r/il/19850b/2987982771/il_1588xN.2987982771_6jsz.jpg" alt="pizza"></a>
+                        <p>Pizza</p>
+                        <a href="pizza.html" class="back-btn">let's cook together</a>
+                    </div>
+                    <div class="category-item">
+                        <a href="ButterChicken.html"><img src="https://i.etsystatic.com/5872003/r/il/f166bb/2021348821/il_1588xN.2021348821_ieej.jpg" alt="Butter chicken"></a>
+                        <p>Butter chicken</p>
+                        <a href="ButterChicken.html" class="back-btn">let's cook together</a>
+                    </div>
+                    <div class="category-item">
+                        <a href="Paella.html"><img src="https://i.etsystatic.com/5872003/r/il/f8cd78/4018765296/il_1588xN.4018765296_1i9y.jpg" alt="Paella"></a>
+                        <p>Paella</p>
+                        <a href="Paella.html" class="back-btn">let's cook together</a>
+                    </div>
+                </div>
+         
+    </section>
+
+    <section class="Connect">
+        <h2>Let's Connect With Us</h2>
+        <form>
+            <input class="input" type="email" placeholder="Enter your e-mail">
+            <input class="submit" type="submit" value="Subscribe Now">
+        </form>    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Recipe Explorer. All rights reserved.</p>
+    </footer>
+</body>
+</html>

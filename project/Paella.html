@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paella Recipe</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-image: url('https://i.pinimg.com/736x/63/a6/8f/63a68ffa4e09026d78233fc5a805f6b6.jpg');
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .container {
+            width: 80%;
+            padding-top: 40px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px RGB(110, 106, 106);
+        }
+        .ingredients {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            margin: 20px 20px;
+        }
+        .base, .protein, .garnish {
+            flex: 1;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px RGB(110, 106, 106);
+        }
+        .instructions {
+            text-decoration: none;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px RGB(110, 106, 106);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h3 {
+            color: #333;
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        ol li {
+            margin-bottom: 10px;
+        }
+   
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Paella Recipe</h1>
+        <div class="ingredients">
+            <div class="base">
+                <h3>Ingredients for the Base:</h3>
+                <ul>
+                    <li><input type="checkbox"> 2 tbsp olive oil</li>
+                    <li><input type="checkbox"> 1 medium onion (chopped)</li>
+                    <li><input type="checkbox"> 2 cloves garlic (minced)</li>
+                    <li><input type="checkbox"> 1 1/2 cups short-grain rice (e.g., Bomba rice)</li>
+                    <li><input type="checkbox"> 1/2 tsp saffron threads (soaked in warm water)</li>
+                    <li><input type="checkbox"> 4 cups chicken or seafood stock</li>
+                    <li><input type="checkbox"> 1 tsp smoked paprika</li>
+                </ul>
+            </div>
+            <div class="protein">
+                <h3>Ingredients for the Protein:</h3>
+                <ul>
+                    <li><input type="checkbox"> 200g chicken thighs (cut into chunks)</li>
+                    <li><input type="checkbox"> 200g chorizo (sliced)</li>
+                    <li><input type="checkbox"> 200g mussels (cleaned)</li>
+                    <li><input type="checkbox"> 200g shrimp (peeled and deveined)</li>
+                </ul>
+            </div>
+            <div class="garnish">
+                <h3>For Garnish:</h3>
+                <ul>
+                    <li><input type="checkbox"> Fresh parsley (chopped)</li>
+                    <li><input type="checkbox"> Lemon wedges</li>
+                    <li><input type="checkbox"> Peas (optional)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="instructions">
+            <h3>Instructions:</h3>
+            <ol>
+                <li>Heat olive oil in a large skillet or paella pan over medium heat.</li>
+                <li>Add chicken and chorizo, cooking until browned. Remove and set aside.</li>
+                <li>Sauté onion and garlic in the same pan until softened.</li>
+                <li>Add rice, saffron, and smoked paprika, stirring to coat the rice in oil.</li>
+                <li>Pour in the stock and bring to a simmer. Add the chicken and chorizo back to the pan.</li>
+                <li>Cook uncovered for 15-20 minutes without stirring.</li>
+                <li>Arrange mussels and shrimp on top of the rice. Cover and cook for another 5-7 minutes until seafood is cooked and liquid is absorbed.</li>
+                <li>Garnish with parsley, peas (if using), and lemon wedges. Serve hot.</li>
+            </ol>
+        </div>
+        <a href="index.html" class="back-btn">Back</a>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Recipe Explorer. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+

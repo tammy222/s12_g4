@@ -1,0 +1,100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		92D1C3E02CDA648D0073210A /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		92D1C3E12CDA64A70073210A /* index.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		92D1C3E32CE0C7890073210A /* Recipe.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Recipe.html; sourceTree = "<group>"; };
+		92D1C3E62CE3804C0073210A /* recipes1.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = recipes1.html; sourceTree = "<group>"; };
+		92D1C3E72CE380780073210A /* recipes2.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = recipes2.html; sourceTree = "<group>"; };
+		92D1C3E92CE385EE0073210A /* recipes4.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = recipes4.html; sourceTree = "<group>"; };
+		92D1C3EB2CE386700073210A /* recipes3.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = recipes3.html; sourceTree = "<group>"; };
+		92D1C3EC2CE39A5D0073210A /* recipes5.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = recipes5.html; sourceTree = "<group>"; };
+		92D1C3ED2CE506450073210A /* AboutUs.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = AboutUs.html; sourceTree = "<group>"; };
+		92D1C3EE2CE8A25D0073210A /* form.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = form.html; sourceTree = "<group>"; };
+		92D1C3F02CE8B0220073210A /* thank-you.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "thank-you.html"; sourceTree = "<group>"; };
+		92D1C3F22CE9F0D00073210A /* pizza.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = pizza.html; sourceTree = "<group>"; };
+		92D1C3F32CE9F6960073210A /* ButterChicken.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ButterChicken.html; sourceTree = "<group>"; };
+		92D1C3F42CE9F8A90073210A /* Paella.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Paella.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		92D1C3D92CDA64620073210A = {
+			isa = PBXGroup;
+			children = (
+				92D1C3F02CE8B0220073210A /* thank-you.html */,
+				92D1C3EE2CE8A25D0073210A /* form.html */,
+				92D1C3F22CE9F0D00073210A /* pizza.html */,
+				92D1C3ED2CE506450073210A /* AboutUs.html */,
+				92D1C3EC2CE39A5D0073210A /* recipes5.html */,
+				92D1C3EB2CE386700073210A /* recipes3.html */,
+				92D1C3E92CE385EE0073210A /* recipes4.html */,
+				92D1C3E72CE380780073210A /* recipes2.html */,
+				92D1C3E62CE3804C0073210A /* recipes1.html */,
+				92D1C3E32CE0C7890073210A /* Recipe.html */,
+				92D1C3E12CDA64A70073210A /* index.css */,
+				92D1C3E02CDA648D0073210A /* index.html */,
+				92D1C3F32CE9F6960073210A /* ButterChicken.html */,
+				92D1C3F42CE9F8A90073210A /* Paella.html */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		92D1C3DA2CDA64620073210A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+			};
+			buildConfigurationList = 92D1C3DD2CDA64620073210A /* Build configuration list for PBXProject "project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92D1C3D92CDA64620073210A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		92D1C3DE2CDA64620073210A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		92D1C3DF2CDA64620073210A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92D1C3DD2CDA64620073210A /* Build configuration list for PBXProject "project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92D1C3DE2CDA64620073210A /* Debug */,
+				92D1C3DF2CDA64620073210A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92D1C3DA2CDA64620073210A /* Project object */;
+}

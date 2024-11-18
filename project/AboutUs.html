@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Explorer - Simple and Tasty Recipes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="AboutUs.html">ABOUT</a></li>
+                <li><a href="Recipe.html">RECIPES</a></li>
+                <li><a href="form.html">YOUR RECIPES </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="description">
+        <div class="left-image">
+            <img src="https://cdn.shopify.com/s/files/1/0324/8750/5965/files/Monoware_Simply_Food.jpg?v=1609345857" alt="Delicious Dish">
+        </div>
+        <div class="right-text">
+            <h1>About Us</h1>
+            <p><strong>Recipe Explorer</strong> is a recipe-sharing website developed as part of our university web programming project. As a team of passionate students, we wanted to create a site that not only showcases our coding skills but also highlights the incredible variety of dishes from around the world. Our website is a place where you can explore and try out delicious recipes from all corners of the world, whether you're an experienced cook or just starting your journey.</p>
+            <h3>How It All Started</h3>
+            <p>This project is for our web programming course, where we were tasked with building a  website using only HTML, CSS, and JavaScript. We chose to focus on international recipes because we believe that food is a universal way to connect people. Through <strong> Recipe Explorer </strong>, we hope to inspire you to experiment with new dishes and discover exciting flavors from various cultures.</p>
+        </div>
+    </section>
+
+
+    <section class="Connect">
+        <h2>Let's Connect With Us</h2>
+        <form>
+            <input class="input" type="email" placeholder="Enter your e-mail">
+            <input class="submit" type="submit" value="Subscribe Now">
+        </form>    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Recipe Explorer. All rights reserved.</p>
+    </footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const form = document.getElementById('subscribe-form');
+        const emailInput = document.getElementById('email-input');
+        const subscribeMessage = document.getElementById('subscribe-message');
+
+        form.addEventListener('submit', (event) => {
+            event.preventDefault(); // Prevent the form from submitting normally
+            if (emailInput.value) {
+                subscribeMessage.style.display = 'block';
+                subscribeMessage.textContent = `Thank you for subscribing, ${emailInput.value}!`;
+                emailInput.value = ''; // Clear the input field
+            } else {
+                alert('Please enter a valid email address');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
+

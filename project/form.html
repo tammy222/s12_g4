@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recipe Explorer - Simple and Tasty Recipes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="AboutUs.html">ABOUT</a></li>
+                <li><a href="Recipe.html">RECIPES</a></li>
+                <li><a href="form.html">YOUR RECIPES </a></li>
+            </ul>
+        </nav>
+        
+        <div class="hero-text">
+        </div>
+    </header>
+
+    <section class="description">
+        <div class="left-image">
+            <img src="https://i.pinimg.com/originals/84/68/4a/84684a3356c128eeb91ee57e7a235d80.gif" alt="Delicious Dish">
+        </div>
+        <div class="theForm">
+        <h1>share a Recipe !!</h1>
+      
+            
+            <form method ="post" action="thank-you.html">
+                
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Your Name:</td>
+                            <td><input class="input" type="text" name="name" id="name" placeholder="Your Full Name" required></td>
+                        </tr>
+                        <tr>
+                            <td>Recipe Title: </td>
+                            <td><input class="input" type="text" name="recipeTitle" id="recipeTitle" placeholder="Recipe Title" required></td>
+                        </tr>
+                        <tr>
+                            <td>Cuisine Type: </td>
+                            <td>
+                                <select class="input" name="cuisine" id="cuisine" required>
+                                    <option value="" disabled selected>Select Cuisine Type</option>
+                                    <option value="Asian">Asian</option>
+                                    <option value="European">European</option>
+                                    <option value="Middle Eastern">Middle Eastern</option>
+                                    <option value="African">African</option>
+                                    <option value="North American">North American</option>
+                                    <option value="South American">South American</option>
+                                    <option value="Oceanian">Oceanian</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Ingredients: </td>
+                            <td>
+                                <textarea class="input" name="ingredients" id="ingredients" placeholder="Write each ingredient on a new line." rows="5" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Cooking Instructions: </td>
+                            <td><textarea class="input" name="instructions" id="instructions" placeholder="Write each step on a new line." rows="8" required></textarea></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Your Email:  </td>
+                            <td><input class="input" type="email" name="email" id="email" placeholder="Your Email Address" required></td>
+                        </tr>
+                        
+                </table>
+                <input class="explore-btn" type="submit" value="Submit Recipe">
+                </div>
+        
+
+    </section>
+
+    <section class="Connect">
+        <h2>Let's Connect With Us</h2>
+        <form>
+            <input class="input" type="email" placeholder="Enter your e-mail">
+            <input class="submit" type="submit" value="Subscribe Now">
+        </form>    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Recipe Explorer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+

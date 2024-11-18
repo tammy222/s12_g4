@@ -1,0 +1,222 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fafafa;
+}
+
+header {
+    background-color: #f7f8f9;
+    padding: 40px 0;
+    text-align: center;
+}
+/* the links on the header */
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* after clicking the links  */
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.hero-text h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.description2 {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+
+
+.left-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50%;  /*rounds the corners of an element's outer border edge*/
+}
+
+.recipe img {
+    position: relative;
+    max-width: 400px;
+   
+}
+
+.main-image {
+    width: 100%;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 5px; /* Adjust the position of the image from the bottom */
+    right: 60px;  /* Adjust the position of the image from the right */
+    width: 50px;  /* Adjust the size of the overlay image */
+    opacity: 0.5; /* Optional: Make the image slightly transparent */
+}
+
+
+
+.right-text {
+    flex: 1; /*makes an element flexible in both growing and shrinking, and it will take up available space in a flex container proportionally to other flex items.*/
+    padding-left: 50px;
+}
+
+.right-text h2 {
+    font-size: 2.5em;
+}
+
+.right-text p {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.explore-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.explore-btn:hover , .back-btn:hover {
+    background-color:#666
+}
+
+
+.categories {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.category-grid {
+    display: flex; /* arranged in a row (horizontally)*/
+    justify-content: space-around; /* Adds equal space around items */
+}
+
+.category-item {
+    max-width: 300px;
+    text-align: center;
+}
+
+.category-item img {
+    width: 100%;
+    
+}
+
+.category-item p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.Connect {
+    padding: 50px;
+    background-color: #f7f8f9;
+    text-align: center;
+}
+
+
+.input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Connect .submit  {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.theForm {
+    margin-left: 300px ;
+}
+
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Recipe</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-image: url('https://i.pinimg.com/736x/4d/7b/3a/4d7b3ae3ef71e53257818715387f8184.jpg');
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+  
+        .container {
+            width: 80%;
+            padding-top: 40px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px RGB(110, 106, 106);
+        }
+        .ingredients {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            margin: 20px 20px;
+        }
+        .dough, .sauce, .toppings {
+            flex: 1;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px RGB(110, 106, 106);
+        }
+        .instructions {
+            text-decoration: none;
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px RGB(110, 106, 106);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h3 {
+            color: #333;
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        ol li {
+            margin-bottom: 10px;
+        }
+        .timer {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Pizza Recipe</h1>
+        <div class="ingredients">
+            <div class="dough">
+                <h3>Ingredients for the Dough:</h3>
+                <ul>
+                    <li><input type="checkbox"> 2 1/4 tsp active dry yeast</li>
+                    <li><input type="checkbox"> 1 1/2 cups warm water</li>
+                    <li><input type="checkbox"> 3 1/2 cups all-purpose flour</li>
+                    <li><input type="checkbox"> 2 tbsp olive oil</li>
+                    <li><input type="checkbox"> 1 tsp sugar</li>
+                    <li><input type="checkbox"> 1 tsp salt</li>
+                </ul>
+            </div>
+            <div class="sauce">
+                <h3>Ingredients for the Sauce:</h3>
+                <ul>
+                    <li><input type="checkbox"> 1 can (15 oz) tomato sauce</li>
+                    <li><input type="checkbox"> 2 cloves garlic, minced</li>
+                    <li><input type="checkbox"> 1 tsp dried oregano</li>
+                    <li><input type="checkbox"> 1 tsp dried basil</li>
+                    <li><input type="checkbox"> Salt and pepper to taste</li>
+                </ul>
+            </div>
+            <div class="toppings">
+                <h3>Ingredients for the Toppings:</h3>
+                <ul>
+                    <li><input type="checkbox"> 2 cups shredded mozzarella cheese</li>
+                    <li><input type="checkbox"> 1/2 cup pepperoni slices</li>
+                    <li><input type="checkbox"> 1/2 cup sliced bell peppers</li>
+                    <li><input type="checkbox"> 1/2 cup sliced mushrooms</li>
+                    <li><input type="checkbox"> Fresh basil leaves (optional)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="instructions">
+            <h3>Instructions:</h3>
+            <ol>
+                <li>In a bowl, combine yeast, sugar, and warm water. Let sit for 5 minutes until frothy.</li>
+                <li>Mix flour, salt, and olive oil. Gradually add the yeast mixture, kneading until dough is smooth.</li>
+                <li>Cover dough and let rise for 1 hour.</li>
+                <li>In a saucepan, sauté garlic. Add tomato sauce, oregano, and basil. Simmer for 10 minutes.</li>
+                <li>Preheat oven to <b>220°C</b>. Roll out dough, spread sauce, and add toppings.</li>
+                <li>Bake for <b>12-15 minutes</b> or until cheese is bubbly and crust is golden.</li>
+            </ol>
+        </div>
+        <a href="index.html" class="back-btn">Back</a>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Recipe Explorer. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
