@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>reviews</title>
+    <link rel="stylesheet" href="index.css">
+        <style>
+            body {
+                font-family: 'Georgia', serif;
+                margin: 0;
+                padding: 0;
+                color: #333;
+            }
+            
+            .container {
+                width: 80%;
+                padding-top: 40px;
+                margin: auto;
+                padding: 20px;
+                background: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px RGB(110, 106, 106);
+            }
+            .ingredients {
+                display: flex;
+                justify-content: space-between;
+                gap: 50px;
+                margin: 20px 20px;
+            }
+            .marinade, .gravy, .garnish {
+                flex: 1;
+                padding: 20px;
+                background: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px RGB(110, 106, 106);
+            }
+                      .instructions {
+                text-decoration: none;
+                width: 80%;
+                margin: 20px auto;
+                padding: 20px;
+                background: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px RGB(110, 106, 106);
+            }
+            h1 , h5 {
+                text-align: center;
+                color: #333;
+            }
+            h3 {
+                color: #333;
+            }
+            ul {
+                padding: 0;
+                list-style: none;
+            }
+            ul li {
+                margin-bottom: 10px;
+            }
+            ol li {
+                margin-bottom: 10px;
+            }
+            
+        </style>
+        
+        
+        
+</head>
+<body>
+    <div class="container">
+        <h1>Share Your Experience</h1>
+        <h5>Your feedback helps us improve!</h5>
+        <div class="ingredients">
+            <div class="marinade">
+                
+                
+                <script>
+                    var name;
+                    var stars;
+                    var comment;
+                    var bool=1;
+                    
+                     name = window.prompt("Enter your name:");
+                     stars = window.prompt("Enter the number of stars (1-5):");
+                     comment = window.prompt("Enter your review:");
+                     document.writeln("<h5 style='color: #828587'>Name: "+ name + "</h5>");
+                                 if(stars==1)
+                                 stars="&#9733;";
+                                 else if (stars==2)
+                                 stars="&#9733; &#9733;";
+                                 else if (stars==3)
+                                 stars="&#9733; &#9733; &#9733;";
+                                 else if (stars==4)
+                                 stars="&#9733; &#9733; &#9733; &#9733;";
+                                 else
+                                 stars="&#9733; &#9733; &#9733; &#9733; &#9733;";
+                            
+                                 document.writeln("<h5 style='color: #828587'> Rating: "+ stars + "</h5>");
+                                 document.writeln("<p style='color: #828587'>\" " + comment + " \"</p>");
+                    
+                </script>
+            </div>
+
+            <div class="gravy">
+                <h5>Name: Olivia W.</h5>
+                   <h5>Rating:&#9733; &#9733; &#9733; &#9733; &#9733; </h5>
+                    <p>"Recipe Explorer is a fantastic website! I loved exploring recipes from around the world using the interactive map. The instructions are clear, and the layout is visually appealing. It’s my new go-to for international cuisine."<p>
+
+            </div>
+            <div class="garnish">
+                <h5>Name: Sofia M.</h5>
+                <h5>Rating: &#9733; &#9733; &#9733;</h5>
+                <p>"I like the concept of exploring recipes by region, but the map could be more interactive. Some countries didn’t have recipes listed yet. I look forward to seeing more updates."</p>
+
+            </div>
+        </div>
+      
+           
+            <div class="ingredients">
+                <div class="marinade">
+                    <h5>Name: Liam K.</h5>
+                    <h5>Rating: &#9733; &#9733; &#9733; &#9733; &#9733;</h5>
+                    <p>"Incredible experience! I love how Recipe Explorer highlights traditional dishes from different cultures. The Submit a Recipe form is a great touch, allowing me to share my family recipes. Amazing work!"</p>
+                </div>
+                <div class="gravy">
+                    <h5>Name: Ava C.</h5>
+                    <h5>Rating: &#9733; &#9733; &#9733; &#9733;</h5>
+                    <p>"Great collection of recipes and beautiful design. I especially enjoyed the Global Recipe Highlights section."</p>
+
+                </div>
+                <div class="garnish">
+                    <h5>Name: Ethan P.</h5>
+                    <h5>Rating: &#9733; &#9733; &#9733; &#9733;</h5>
+                    <p>"The website is very easy to use, and the recipe categories are well-organized. I found some amazing dishes to try. The only thing I’d suggest is adding a feature to save my favorite recipes for quick access."</p>
+                </div>
+            </div>
+        
+     
+        <a href="index.html" class="back-btn">Back</a>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Recipe Explorer. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
 
